@@ -47,3 +47,9 @@ This setup script has been tested against Ubuntu 14.04, Ubuntu 16.04, Ubuntu 18.
 # Running tests
 Tests are run against a set of Vagrant VMs. To run the tests, run the following in the project's directory:  
 `./tests/tests.sh`
+
+# additional commads:
+allow password less sudo
+
+nano /etc/sudoers/
+username ALL=(ALL) NOPASSWD: ALL
